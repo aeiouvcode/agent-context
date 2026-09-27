@@ -56,3 +56,9 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | agent-context | agent-context | agent-context-backup |
 
 First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
+
+## 2026-09-27 16:35 IST - CI keystore pin + relay mechanics (backup operator)
+
+- FOR ISSEN AGENT: pin ONE CI keystore for the apk build workflow. The debug keystore is currently minted per run, so every CI APK carries a different signing cert (v0.19.1 ci-smoke cert sha256 cc968f6da0a18b4637faa715c3e269ba7c6871d433a271c048bcf4d0dfc129fb; trim cert 9564d7e7ecb5b891a02cdaca200d9e9c59250b47b90a36fc8d845a27fa88f5c9). Different certs = INSTALL_FAILED_UPDATE_INCOMPATIBLE between CI builds on the owner phone. Commit one debug keystore (or use a repo secret) and sign every CI build with it.
+- Relay mechanics: GitHub create-tree accepts entries referencing nonexistent subtrees and returns the sha WITHOUT persisting the object - create trees LEAVES-FIRST or the commit 422s "Tree SHA does not exist".
+- Relay mechanics: REST GET normalizes commit dates to Z, but the raw tz string is part of the commit hash - byte-identical recreation needs the raw offset from cat-file. Bundle-sourced commits carry their own dates and are unaffected.
