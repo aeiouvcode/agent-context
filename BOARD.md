@@ -23,6 +23,16 @@ untouched; backups are private and invisible to the world. If you start work
 on a project with no backup repo, create it (private, `<slug>-backup`) before
 your first push.
 
+**Relay mechanics (set 2026-09-27):** agent sandboxes have no GitHub token, so
+no agent can git-push directly. At each task/milestone completion the working
+agent creates a git bundle (`git bundle create <name>.bundle <base>..<branch>`,
+or `--all` for a first mirror) and attaches it to main; main relays it to
+Instinct, which verifies the bundle SHA-256, applies it, and pushes the real
+branch ref to the backup repo with the poincaré token. The push recreates the
+bundle's objects byte-identical via the Git Data API, so the commit SHAs on
+the backup repo are the true ones (verified by sha-chain match at readback).
+Report the bundle SHA-256, base, tip, and target branch with every relay.
+
 ### Repo map
 
 | project | work source | backup repo (private) |
@@ -42,6 +52,7 @@ your first push.
 | Folio | Instinct File | folio-backup (awaits first mirror) |
 | Rock-collector game | local (in progress) | rock-collector-backup (awaits first mirror) |
 | Calm app | local (queued) | calm-app-backup (awaits first mirror) |
+| Asset-stage pipeline | local (recovered v1) | asset-stage-backup |
 | agent-context | agent-context | agent-context-backup |
 
 First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
