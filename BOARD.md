@@ -39,7 +39,7 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 |---|---|---|
 | KIN - living koi pond | kin-living-pond | kin-backup |
 | Aurelia / Swan Lake | aurelia | aurelia-backup |
-| Toro-wan | local-only (rebuilding) | toro-wan-backup (awaits first mirror) |
+| Toro-wan | local-only (rebuilding) | toro-wan-backup |
 | ISSEN (godot + web) | issen | issen-backup |
 | SKYTETHER (web + godot) | skytether | skytether-backup |
 | FrameForge | frameforge-studio | frameforge-backup |
@@ -51,8 +51,9 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | KEEP THE LIGHT | keep-the-light | keep-the-light-backup |
 | Folio | Instinct File | folio-backup (awaits first mirror) |
 | Rock-collector game | local (in progress) | rock-collector-backup (awaits first mirror) |
-| Calm app | local (queued) | calm-app-backup (awaits first mirror) |
+| Calm app (Hushfield lofi) | local (queued) | calm-app-backup |
 | Asset-stage pipeline | local (recovered v1) | asset-stage-backup |
+| Synthesis (64-piece checkpoint) | local (checkpoints) | synthesis-backup |
 | agent-context | agent-context | agent-context-backup |
 
 First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
