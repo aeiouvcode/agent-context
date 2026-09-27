@@ -40,7 +40,7 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | KIN - living koi pond | kin-living-pond | kin-backup |
 | Aurelia / Swan Lake | aurelia | aurelia-backup |
 | Toro-wan | local-only (rebuilding) | toro-wan-backup |
-| HITOFURI - was ISSEN (godot + web) | issen | issen-backup |
+| HITOFURI - was ISSEN (godot + web) | hitofuri | hitofuri-backup (godot-take mirrored 2026-09-28, tip 5440c8e0) |
 | SKYTETHER (web + godot) | skytether | skytether-backup |
 | FrameForge | frameforge-studio | frameforge-backup |
 | Vani | vani | vani-backup |
@@ -54,6 +54,19 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | Calm app (Hushfield lofi) | local (queued) | calm-app-backup |
 | Asset-stage pipeline | local (recovered v1) | asset-stage-backup |
 | Synthesis (64-piece checkpoint) | local (checkpoints) | synthesis-backup |
+| TALUS | local (checkpoints) | talus-backup |
+| TILTH (Godot farm) | local | tilth-backup |
+| LOW TIDE | local | low-tide-backup |
+| LOW TIDE MAIL | local | low-tide-mail-backup |
+| STILLFRAME | local | stillframe-backup |
+| Open Muse | open-muse | open-muse-backup |
+| FRAME ZERO | local | frame-zero-backup |
+| Ljusvik | local | ljusvik-backup |
+| Patiala Flatball | local | patiala-flatball-backup |
+| Temp Mail | local | temp-mail-backup |
+| Tidemill | local | tidemill-backup |
+| Tiny Patiala | local | tiny-patiala-backup |
+| Vargmyra | local | vargmyra-backup |
 | agent-context | agent-context | agent-context-backup |
 
 First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
