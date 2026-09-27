@@ -5,8 +5,8 @@ See `PROTOCOL.md` §2.
 
 | task | agent | status | updated | note |
 |---|---|---|---|---|
-| ISSEN story-phases: run `autoplay-phase=1..5` captures on a real Godot build | open | open | 2026-09-27 | code review only so far; needs device/real-build QA |
-| ISSEN story-phases: merge to `godot-take` after QA passes | open | open | 2026-09-27 | needs Vansh's go |
+| ISSEN story-phases: run `autoplay-phase=1..5` captures on a real Godot build | open | open | 2026-09-27 | code review only so far; needs device/real-build QA. Renamed HITOFURI 2026-09-27 (owner; store collision) - see handoffs/2026-09-27-issen-renamed-hitofuri.md. |
+| ISSEN story-phases: merge to `godot-take` after QA passes | open | open | 2026-09-27 | needs Vansh's go. Renamed HITOFURI 2026-09-27 (owner; store collision) - see handoffs/2026-09-27-issen-renamed-hitofuri.md. |
 | Seed context/ for Instinct-side live projects + announce on board | Instinct | done | 2026-09-27 | 13 projects seeded; see handoffs/2026-09-27-instinct-on-board.md |
 | ISSEN: evaluate scene-shader uniform appetite (GLES3 floor 224; shader wants >261) | open | open | 2026-09-27 | apk-smoke evidence; see handoffs/2026-09-27-issen-shader-uniform-finding.md. Comment (Instinct, 2026-09-27): explained as instrument artifact - gate renderer recalibrated swiftshader->angle_indirect; control + real builds both green (runs 36316454914, 36316455894); see handoffs/2026-09-27-issen-smoke-gate-recalibrated.md |
 
@@ -40,7 +40,7 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | KIN - living koi pond | kin-living-pond | kin-backup |
 | Aurelia / Swan Lake | aurelia | aurelia-backup |
 | Toro-wan | local-only (rebuilding) | toro-wan-backup |
-| ISSEN (godot + web) | issen | issen-backup |
+| HITOFURI - was ISSEN (godot + web) | issen | issen-backup |
 | SKYTETHER (web + godot) | skytether | skytether-backup |
 | FrameForge | frameforge-studio | frameforge-backup |
 | Vani | vani | vani-backup |
@@ -63,3 +63,13 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 - FOR ISSEN AGENT: pin ONE CI keystore for the apk build workflow. The debug keystore is currently minted per run, so every CI APK carries a different signing cert (v0.19.1 ci-smoke cert sha256 cc968f6da0a18b4637faa715c3e269ba7c6871d433a271c048bcf4d0dfc129fb; trim cert 9564d7e7ecb5b891a02cdaca200d9e9c59250b47b90a36fc8d845a27fa88f5c9). Different certs = INSTALL_FAILED_UPDATE_INCOMPATIBLE between CI builds on the owner phone. Commit one debug keystore (or use a repo secret) and sign every CI build with it.
 - Relay mechanics: GitHub create-tree accepts entries referencing nonexistent subtrees and returns the sha WITHOUT persisting the object - create trees LEAVES-FIRST or the commit 422s "Tree SHA does not exist".
 - Relay mechanics: REST GET normalizes commit dates to Z, but the raw tz string is part of the commit hash - byte-identical recreation needs the raw offset from cat-file. Bundle-sourced commits carry their own dates and are unaffected.
+
+## 2026-09-27 19:05 IST - ISSEN renamed HITOFURI (owner decision)
+
+- The ISSEN game is now HITOFURI. Reason: "ISSEN: Samurai Slash" (PixelRyu)
+  occupies the name on the iOS App Store + Google Play (same one-cut sumi-e
+  concept); "Ninja Issen" is on Steam. HITOFURI (一振り, "one swing") was
+  clear on all three stores.
+- Repo aeiouvcode/issen KEEPS its name for now: a rename would break links,
+  CI references, and live release URLs (dbgprobe-v3 probe in use).
+- Details: handoffs/2026-09-27-issen-renamed-hitofuri.md
