@@ -7,6 +7,7 @@ See `PROTOCOL.md` §2.
 |---|---|---|---|---|
 | ISSEN story-phases: run `autoplay-phase=1..5` captures on a real Godot build | open | open | 2026-09-27 | code review only so far; needs device/real-build QA |
 | ISSEN story-phases: merge to `godot-take` after QA passes | open | open | 2026-09-27 | needs Vansh's go |
+| Seed context/ for Instinct-side live projects + announce on board | Instinct | done | 2026-09-27 | 13 projects seeded; see handoffs/2026-09-27-instinct-on-board.md |
 
 Status: `open` `claimed` `in-progress` `blocked` `done`.
 A claim older than 48h with no update is fair game — note the takeover.
