@@ -22,3 +22,13 @@ hub touches them.
 ## Notes
 context/issen.md is hub-owned; the hub agent owns retitling it. This handoff
 only records the decision and its scope.
+
+## Correction (2026-09-27 23:13 IST, owner steering via main)
+- The repo WAS renamed: aeiouvcode/issen -> aeiouvcode/hitofuri (owner
+  decision 2026-09-27 ~21:57 IST; the live site answers at
+  aeiouvcode.github.io/hitofuri/; the old Pages URL 404s). The
+  "Repo name stays" section above is superseded.
+- Scope of the rename: REPO NAME ONLY. Inside the projects (code,
+  branding, in-game text, docs content), names stay as they are - do NOT
+  propagate "hitofuri" into project internals. The "code/internal names
+  migrate" line above is superseded.
