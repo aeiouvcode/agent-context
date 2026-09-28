@@ -13,7 +13,10 @@ procedures, CO2 limits, exercise, consumables.
 - After Vansh's note that the hero scene "feels more like a comic": the
   station now moves on its own — second crew member, idle tumbles, blinking
   racks.
-- Included in the 09-27 batch go-live.
+- Included in the 09-27 batch go-live; live tip 5eb65acf (gauge + header
+  repaint optimization) 2026-09-28.
+- Local-only branch splat-module-local (static landing hero within a
+  visible frame window) mirrored to increment-backup 2026-09-28; not live.
 
 ## Decisions
 - Godot-first (Vansh's standing direction for games).

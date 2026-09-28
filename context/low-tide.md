@@ -10,14 +10,14 @@ backend. Reduced-motion aware.
 - Backup: `aeiouvcode/low-tide-backup` (private), `master`.
 
 ## Current state
-- v3 local candidate mirrored 2026-09-28 (snapshot 3ad90029). Source is
-  explicitly not live; fresh owner approval needed before redeploying v1.
+- v3 LIVE on Pages 2026-09-28 (tip 2addea6e) under the owner's batch
+  go-live; script.js removed from the tree per the deploy spec.
 
 ## Decisions
 - Backup mirror convention (owner, 2026-09-27/28).
 
 ## Open items
-- [ ] v3 redeploy decision (owner).
+- [ ] None tracked on Instinct's side.
 
 ## Grades
 - 2026-09-28: UNTESTED by Instinct (mirror operator only).

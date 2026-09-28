@@ -18,9 +18,10 @@ Recurring self-improvement build loop run by Instinct.
   checkpoints + fork, retry variants, PWA install, model hub with HuggingFace
   community search and resumable downloads, memory benchmark, Observe/Ask/Auto
   permission modes, backup import preview + merge.
-- Gen 32 built and QA'd 2026-09-27: PII sentinel fixture matrix (fail-loud),
-  web-search cloak, PAN/Aadhaar detectors. Delivered as a private QA build;
-  public Pages deploy awaits Vansh's go.
+- Gens 32 + 33 LIVE on Pages 2026-09-28 (tip 07eeea93, batch go-live;
+  Pages md5-verified). Gen 32: PII sentinel fixture matrix (fail-loud),
+  web-search cloak, PAN/Aadhaar detectors. Gen 33: private File QA build
+  (revision filerevision-01M3JP1PZ0FHHDRT8N0H9TD5T0), critic 8/10 round 1.
 - Competitive frame: LibreChat and Jan. Deliberately not chasing microVMs or
   agents that run while closed.
 

@@ -8,7 +8,7 @@ before trusting.
 | Project | Context file | Last updated | State in one line |
 |---|---|---|---|
 | ISSEN 一閃 (web + Godot) | `context/issen.md` | 2026-09-27 | Story-phase system built on `story-phases` branch, UNTESTED |
-| Open Muse | `context/open-muse.md` | 2026-09-27 | Gens 20–31 live; gen 32 QA'd, Pages deploy awaits Vansh's go |
+| Open Muse | `context/open-muse.md` | 2026-09-28 | Gens 20–33 live on Pages |
 | KIN — living koi pond | `context/kin-living-pond.md` | 2026-09-27 | c77 koi bowl live at `/godot/`; gap-to-RYUKIN work ongoing |
 | KESTREL-9 | `context/kestrel-9.md` | 2026-09-27 | v1.2 aiming APK delivered; on-device verdicts pending |
 | NoCatch | `context/nocatch.md` | 2026-09-27 | 84 verified cards / 20 categories live; targets 100 → 250 |
@@ -17,13 +17,13 @@ before trusting.
 | Aurelia | `context/aurelia.md` | 2026-09-27 | Notation-first engine (abc.js + Fluid R3_GM); Swan Lake critic 8 |
 | Vani | `context/vani.md` | 2026-09-27 | Live PWA; speed pass is the bar; on-device accuracy unverified |
 | SKYTETHER | `context/skytether.md` | 2026-09-27 | Web build live; sound/street branch awaits merge decision |
-| FRAME ZERO | `context/frame-zero.md` | 2026-09-27 | Live; security MEDIUM fixed 09-23 |
-| INCREMENT | `context/increment.md` | 2026-09-27 | Live; station autonomy pass after art-direction note |
+| FRAME ZERO | `context/frame-zero.md` | 2026-09-28 | Gen 20 live; security MEDIUM fixed 09-23 |
+| INCREMENT | `context/increment.md` | 2026-09-28 | Live (5eb65acf); local splat-module branch backup-only |
 | EDGE//AI | `context/edge-ai.md` | 2026-09-27 | Live + verified 09-26; design PASS, security PARTIAL |
 | Toro-wan | `context/toro-wan.md` | 2026-09-27 | v0.2 APK delivered; verdict pending; stub — facts to backfill |
 | TALUS | `context/talus.md` | 2026-09-28 | Dither-world rockhounding; mirrored through v9 |
-| TILTH | `context/tilth.md` | 2026-09-28 | Farm/life-sim; mirrored through v2.3 (cave depth) |
-| LOW TIDE | `context/low-tide.md` | 2026-09-28 | v1 live; v3 candidate mirrored, redeploy = owner's call |
+| TILTH | `context/tilth.md` | 2026-09-28 | v2.5 live; mirrored through v2.11 + Godot v0.6 |
+| LOW TIDE | `context/low-tide.md` | 2026-09-28 | v3 live (2addea6e) |
 | LOW TIDE MAIL | `context/low-tide-mail.md` | 2026-09-28 | Mailbox kit; v2 mirrored |
 | Stillframe | `context/stillframe.md` | 2026-09-28 | Portrait editor prototype mirrored |
 | Ljusvik | `context/ljusvik.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
@@ -32,6 +32,7 @@ before trusting.
 | Tidemill | `context/tidemill.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
 | Tiny Patiala | `context/tiny-patiala.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
 | Vargmyra | `context/vargmyra.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
+| KEEP THE LIGHT | `context/keep-the-light.md` | 2026-09-28 | c126 live; mirrored through c129 |
 | _template | `context/_template.md` | — | copy for new projects |
 
 ## Conventions

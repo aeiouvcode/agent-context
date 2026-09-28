@@ -13,6 +13,7 @@ it." Five chapters, cinematic motion, atmospheric sound.
 ## Current state
 - Live since 2026-09-19 17:23; Chapter 1 death cells redrawn as distinct
   motifs in a same-day polish pass.
+- Gen 20 live 2026-09-28 (tip 49c95ee1) under the batch go-live.
 - Security: the fleet sweep's one MEDIUM (data-driven innerHTML sinks) fixed
   with an SVG sanitizer + injection self-test, live 09-23 01:22; climax
   choice-screen redesign followed at 04:31.

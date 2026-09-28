@@ -68,6 +68,8 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | Tidemill | local | tidemill-backup |
 | Tiny Patiala | local | tiny-patiala-backup |
 | Vargmyra | local | vargmyra-backup |
+| EE channel (narration) | local | ee-channel-backup |
+| Fleet inventory (durable store) | local | fleet-inventory |
 | agent-context | agent-context | agent-context-backup |
 
 First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
