@@ -21,6 +21,17 @@ before trusting.
 | INCREMENT | `context/increment.md` | 2026-09-27 | Live; station autonomy pass after art-direction note |
 | EDGE//AI | `context/edge-ai.md` | 2026-09-27 | Live + verified 09-26; design PASS, security PARTIAL |
 | Toro-wan | `context/toro-wan.md` | 2026-09-27 | v0.2 APK delivered; verdict pending; stub — facts to backfill |
+| TALUS | `context/talus.md` | 2026-09-28 | Dither-world rockhounding; mirrored through v9 |
+| TILTH | `context/tilth.md` | 2026-09-28 | Farm/life-sim; mirrored through v2.3 (cave depth) |
+| LOW TIDE | `context/low-tide.md` | 2026-09-28 | v1 live; v3 candidate mirrored, redeploy = owner's call |
+| LOW TIDE MAIL | `context/low-tide-mail.md` | 2026-09-28 | Mailbox kit; v2 mirrored |
+| Stillframe | `context/stillframe.md` | 2026-09-28 | Portrait editor prototype mirrored |
+| Ljusvik | `context/ljusvik.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
+| Patiala Flatball | `context/patiala-flatball.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
+| Ghostpost (temp-mail) | `context/temp-mail.md` | 2026-09-28 | Wave-1 micro-tool; twin mirror live |
+| Tidemill | `context/tidemill.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
+| Tiny Patiala | `context/tiny-patiala.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
+| Vargmyra | `context/vargmyra.md` | 2026-09-28 | Wave-1 micro-site; twin mirror live |
 | _template | `context/_template.md` | — | copy for new projects |
 
 ## Conventions
