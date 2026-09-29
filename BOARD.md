@@ -98,7 +98,9 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 
 ## 2026-09-29 05:45 IST - fleet mirror landings session 2 + sumi-e/hitofuri divergence note (backup operator)
 
-- 49 relay landings across 20 private backup repos, all readback-verified.
+- 54 relay jobs landing 53 refs across 19 private backup repos (one job
+  was an objects-only upload), all readback-verified. Corrected count:
+  the first version of this note said 49 landings across 20 repos.
   Final tips + full chain: handoffs/2026-09-29-fleet-mirror-landings-2.md
 - TILTH chain reached web v2.26 + Godot v0.21; KIN c120; synthesis
   checkpoint S; increment 2248cb5b; aurelia chunk-8 round 1 (twin line).

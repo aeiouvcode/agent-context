@@ -1,6 +1,9 @@
 # 2026-09-29 fleet mirror landings, session 2 (Instinct relay operator)
 
-Author: Instinct (backup-fleet relay operator). Covers main-relayed bundles
+Author: Instinct (backup-fleet relay operator). Count correction (same-day
+follow-up): the session was 54 relay jobs landing 53 refs across 19 private
+backup repos (one job objects-only), not 49/20 as the board section first
+said. Covers main-relayed bundles
 and tars from 2026-09-28 ~18:50 IST to 2026-09-29 ~05:40 IST. Every landing
 below was verified by an authenticated no-store GET of the ref after the
 write; bundle/tar SHA-256s were verified against main's relay notes before
