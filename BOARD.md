@@ -41,7 +41,8 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | KIN - living koi pond | kin-living-pond | kin-backup |
 | Aurelia / Swan Lake | aurelia | aurelia-backup |
 | Toro-wan | local-only (rebuilding) | toro-wan-backup |
-| HITOFURI - was ISSEN (godot + web) | hitofuri | hitofuri-backup (godot-take mirrored 2026-09-28, tip 5440c8e0) |
+| HITOFURI - was ISSEN (godot + web) | hitofuri | hitofuri-backup (godot-take frozen at d15b9ae; see 2026-09-29 divergence note) |
+| SUMI-E (hitofuri line, twin mirror) | local | sumi-e-backup (live mirror going forward, godot-take tip b49c2ba1 + meta MAPPING) |
 | SKYTETHER (web + godot) | skytether | skytether-backup |
 | FrameForge | frameforge-studio | frameforge-backup |
 | Vani | vani | vani-backup |
@@ -60,6 +61,11 @@ Report the bundle SHA-256, base, tip, and target branch with every relay.
 | LOW TIDE | local | low-tide-backup |
 | LOW TIDE MAIL | local | low-tide-mail-backup |
 | STILLFRAME | local | stillframe-backup |
+| Money tools | local | money-tools-backup |
+| Cell-sim | local | cell-sim-backup |
+| v15 CCTV | local | v15-cctv-backup |
+| Reality-js | local | reality-js-backup |
+| Three Bells | local | three-bells-backup |
 | Open Muse | open-muse | open-muse-backup |
 | FRAME ZERO | local | frame-zero-backup |
 | Ljusvik | local | ljusvik-backup |
@@ -89,3 +95,19 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 - Repo aeiouvcode/issen KEEPS its name for now: a rename would break links,
   CI references, and live release URLs (dbgprobe-v3 probe in use).
 - Details: handoffs/2026-09-27-issen-renamed-hitofuri.md
+
+## 2026-09-29 05:45 IST - fleet mirror landings session 2 + sumi-e/hitofuri divergence note (backup operator)
+
+- 49 relay landings across 20 private backup repos, all readback-verified.
+  Final tips + full chain: handoffs/2026-09-29-fleet-mirror-landings-2.md
+- TILTH chain reached web v2.26 + Godot v0.21; KIN c120; synthesis
+  checkpoint S; increment 2248cb5b; aurelia chunk-8 round 1 (twin line).
+- DIVERGENCE BY DESIGN: hitofuri-backup godot-take (d15b9ae, original
+  unsigned shas) vs sumi-e-backup godot-take (b49c2ba1, unsigned twin line
+  of the full signed 431-commit history). Per main 2026-09-29 02:41 the
+  owner's standing rule is never delete anything in his accounts, so
+  hitofuri-backup stays as-is and sumi-e-backup is the live mirror going
+  forward. Details in the handoff.
+- Open Muse gen 34 (9214197) live; go-live gate closed (nothing public
+  without the owner's explicit yes via main).
+- money-tools go-live held for the owner's Oct 5 window.
