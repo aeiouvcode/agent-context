@@ -138,3 +138,16 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
   public go-live still held for the owner's Oct 5 window);
   frame-zero-backup snapshot #9 (8155714); tilth-backup master web v2.42
   (72c15a2, local-only; live stays v2.41).
+
+## 2026-09-30 00:00 IST - relay items 187-188 + QRFOLD v2 + Open Muse gen-38 go-lives (backup operator)
+
+- kin-backup godot-prototype c137 (f78989a, byte-exact replay).
+- aurelia-backup improve/klatt: swan-r6 arrived unsigned -> recursive
+  unsigned twin (886065f of 595f30b) + supersede-merge b08f91a (tree =
+  intended, parents [twin, prior tip]); meta 27b6440 documents the mapping.
+- 23:52 batch (owner "both", WhatsApp, verified on channel):
+  - QRFOLD v2: new public repo aeiouvcode/qrfold (b609097, single-file
+    index.html only per builder's public-tree definition; probe/docs
+    excluded), Pages live, verified byte-exact vs builder sha256 spec.
+  - Open Muse gen-38: public main 7d67f3b -> 21a2284 (settings model
+    picker 390px two-row stack); live verified byte-exact.
