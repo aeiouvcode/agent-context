@@ -113,3 +113,28 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 - Open Muse gen 34 (9214197) live; go-live gate closed (nothing public
   without the owner's explicit yes via main).
 - money-tools go-live held for the owner's Oct 5 window.
+
+## 2026-09-29 23:12 IST - go-live batches + relay items 91-186 (backup operator)
+
+- 20:03 batch (owner "go now, all"): Open Muse gen-37 live (7d67f3b);
+  new public repos paperfold (619a84b) + micro-tools (66f0a27), Pages on;
+  keep-the-light c132 live (d852791).
+- 22:22 batch (owner "go live on all", WhatsApp, verified on channel):
+  - PIXELFOLD v2: new public repo aeiouvcode/pixelfold (0ce1670), Pages
+    live, flat static HEIC-to-JPG converter.
+  - LOW TIDE v13: public main 2addea6 -> 2d882ae (replaces v3); live
+    verified byte-exact against the item-173 mirror bytes.
+  - TILTH web v2.41: public main 4031c320 -> 69d36d9; coherent tree with
+    real filenames (TILTH agent's numbered staging files replaced); live
+    verified byte-exact. Public repo keeps its web-only shape.
+- New private repo qrfold-backup (QRFOLD v1 ba8f90b, v2 ca5e065;
+  go-live held for owner yes, would deploy v2). tilth-backup gains a
+  godot track branch (v0.36, 98deb39).
+- reality-js-backup main 0e880e1: mesh8-mesh12 local candidates mirrored;
+  index.html still loads mesh-v7.js throughout - nothing promoted, live
+  stays mesh7 (df95e42 line public).
+- kin-backup godot-prototype c136 (dce3c79, byte-exact replay);
+  money-tools-backup batch 8 overlay (a7cfe5d, private only; money-tools
+  public go-live still held for the owner's Oct 5 window);
+  frame-zero-backup snapshot #9 (8155714); tilth-backup master web v2.42
+  (72c15a2, local-only; live stays v2.41).
