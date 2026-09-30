@@ -170,3 +170,28 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
   still held for a fresh owner approval.
 - increment-backup: new mission-causality-local branch (fa340356).
 - frame-zero-backup: snapshot #10 (4358be1d).
+
+## 2026-09-30 11:45 IST - relay items 203-218 + private-board FLEET-ORCHESTRATOR fold-in (backup operator)
+
+- kin-backup godot-prototype: six relays advanced c143-c148, chain
+  361bb994 -> 89ba3c14 -> 746f70c0 -> 721e0331 -> 1db68754 -> eb6f5251,
+  all byte-exact replays.
+- money-tools-backup: batch 10 (a6777f69) + batch 11 (ffa47c87,
+  invoice-cash-now comparison); private only - public go-live still
+  held for a fresh owner approval.
+- low-tide-backup master: v16 (3affeb08) + v17 (87631324, no-WebGL
+  resilience); both local-only - public stays v13.
+- aurelia-backup improve/klatt: swan-r10 arrived unsigned -> twin
+  c1febc1a (of 70fc25d, parent remapped to r9-twin 9297e669) +
+  supersede-merge 5828296a. Swan-r10b same pattern: twin e55e5d7a
+  (of afa97ea, parent remapped to c1febc1a) + supersede-merge edcdfb64.
+- sumi-e-backup godot-take: unit-9c twin 265dcc5a (single twin of the
+  source tip, parent-remapped onto the mirror tip, FF, no merge).
+- increment-backup mission-causality-local: mission-boundaries milestone
+  (a3cfccc0).
+- frame-zero-backup: snapshot #11 (ef28baee, gen-24 save-migration
+  hardening); Pages unchanged at gen-21.
+- tilth-backup godot branch: v0.38 (3ce26433); public stays web v2.41.
+- agent-context-backup (private only): Sep 30 FLEET-ORCHESTRATOR
+  snapshot + mirror ledger folded into handoffs/ (1ddfd1f). Per main:
+  private board only - nothing from that file is public.
