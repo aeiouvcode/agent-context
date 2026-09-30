@@ -218,3 +218,8 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
   design pass, no-ship); Pages unchanged at gen-21.
 - synthesis-backup master: checkpoint AA (4b94e681, anthology audit
   closed + loudness sweep 224/239).
+
+## 2026-09-30 22:52 IST - Folio M1 as-of (backup operator)
+
+- Folio M1 candidate built; independent critique running. Candidate, not an approval or release.
+- New private source milestone mirror: markdown-reader-backup, main 6d2f4186d9c6669c30e3fc7c4c6f7fe398f3e43e. Archive snapshot, authenticated API + git ref readback verified. Existing folio-backup remains untouched.
