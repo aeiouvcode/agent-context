@@ -195,3 +195,26 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 - agent-context-backup (private only): Sep 30 FLEET-ORCHESTRATOR
   snapshot + mirror ledger folded into handoffs/ (1ddfd1f). Per main:
   private board only - nothing from that file is public.
+
+## 2026-09-30 17:45 IST - relay items 219-255 (backup operator)
+
+- kin-backup godot-prototype: c149-c153 chain 5aeacfc7 -> 9c52b4ff ->
+  31fbc666 -> f9c93d57 -> 0e7e1e48, all byte-exact replays.
+- paperfold-backup main: checkpoints 8-33 landed (4b744f28 .. 41b4e845).
+  pdf-to-word and pdf-to-excel engines shipped to local staging (fleet
+  now 18 tools); hardening batches: currency typing, encrypted-PDF
+  guard, smoke 18/18, CCITT K>0 coverage, external-viewer notes.
+  All local-only - no public release; go-live gate holds.
+- aurelia-backup improve/klatt: swan-r13 twin 67582350 + merge
+  4882149a; swan-r14 twin 84be06a9 + merge 33ce2eff. MAPPING.md
+  sections appended on refs/heads/meta (now 218c88c5).
+- tilth-backup master: web v2.44 (aa840954) + v2.45 (b3276e12,
+  narrow-viewport HUD); both local-only - public stays v2.41.
+- money-tools-backup: batch 12 XIRR patch (7e60a6c4); private only -
+  public go-live still held for a fresh owner approval.
+- increment-backup mission-causality-local: nested-checkpoints
+  milestone (c601f4ec).
+- frame-zero-backup: snapshot 12 (bd45875c, title + chapter-select
+  design pass, no-ship); Pages unchanged at gen-21.
+- synthesis-backup master: checkpoint AA (4b94e681, anthology audit
+  closed + loudness sweep 224/239).
