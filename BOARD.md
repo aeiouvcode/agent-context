@@ -151,3 +151,22 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
     excluded), Pages live, verified byte-exact vs builder sha256 spec.
   - Open Muse gen-38: public main 7d67f3b -> 21a2284 (settings model
     picker 390px two-row stack); live verified byte-exact.
+
+## 2026-09-30 05:50 IST - relay items 189-202 (backup operator)
+
+- kin-backup godot-prototype: five relays advanced the branch to c142
+  (4f67c487), all byte-exact replays.
+- low-tide-backup master: v14 (24a237b) + v15 (6203a470) mirrored;
+  both local-only - public stays v13.
+- aurelia-backup improve/klatt: swan round 7 arrived unsigned -> twin
+  2a494f25 (of 08f295cc, parent remapped to r6-twin 886065f) +
+  supersede-merge 512c7a6a. Swan round 9 same pattern: twin 9297e669
+  (of feac1b51) + supersede-merge 0437d8f5. NOTE: no round-8 bundle
+  has arrived; r9 was sent parented on r7, so the mirror is r7 -> r9.
+  meta 93f04f2f documents both mappings.
+- tilth-backup: godot branch v0.37 (09213969); master web v2.43
+  (0ff931ac) local-only - public stays v2.41.
+- money-tools-backup batch 9 (978c0eee); private only - public go-live
+  still held for a fresh owner approval.
+- increment-backup: new mission-causality-local branch (fa340356).
+- frame-zero-backup: snapshot #10 (4358be1d).
