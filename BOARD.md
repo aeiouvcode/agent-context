@@ -95,6 +95,7 @@ First mirrors seeded 2026-09-27 via GitHub Importer (full revision history).
 - Repo aeiouvcode/issen KEEPS its name for now: a rename would break links,
   CI references, and live release URLs (dbgprobe-v3 probe in use).
 - Details: handoffs/2026-09-27-issen-renamed-hitofuri.md
+- UPDATE 2026-10-02 (gardener): the repo has since been renamed aeiouvcode/hitofuri (same repo id). The line above is the 2026-09-27 state. Live Pages is https://aeiouvcode.github.io/hitofuri/; the old /issen/ URL returns 404 (no redirect). Fixed in the repo README/HANDOFF at 4c32435.
 
 ## 2026-09-29 05:45 IST - fleet mirror landings session 2 + sumi-e/hitofuri divergence note (backup operator)
 
